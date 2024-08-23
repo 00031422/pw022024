@@ -22,7 +22,7 @@ nav a{
     padding: 10px;
     font-size: 20px;
 }
-#my_photo{
+.my_photo{
     display: flex;     
     margin: auto;
     border: 8px solid black;
@@ -34,7 +34,7 @@ nav a{
 }
 
 .text-information{
-    font-size:20px;
+    font-size:16px;
     text-align: center;
 
 }
@@ -71,4 +71,15 @@ footer a{
 
 fieldset{
     background-color: aliceblue;
+}
+
+iframe{
+    display:block;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+h3{
+    text-align: center;
 }
