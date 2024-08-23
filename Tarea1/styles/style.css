@@ -34,7 +34,8 @@ nav a{
 }
 
 .text-information{
-    font-size: 16px;
+    font-size:20px;
+    text-align: center;
 
 }
 
@@ -66,4 +67,8 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+}
+
+fieldset{
+    background-color: aliceblue;
 }
