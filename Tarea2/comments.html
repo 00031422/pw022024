@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Opinión</title>
+    <link rel="stylesheet" href="assets/styles.css  ">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Instrumentos de viento</a></li>
+                <li><a href="genres.html">Géneros Musicales</a></li>
+                <li><a href="comments.html">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feedback-section">
+            <h2>Tu Opinión Nos Importa</h2>
+            <p>Por favor, completa el siguiente formulario para dejarnos saber si la información fue útil y compártenos tus comentarios.</p>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="useful">¿La información fue útil?</label>
+                    <select id="useful" name="useful" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="yes">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Escribe tus comentarios aquí..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-primary">Enviar Comentarios</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

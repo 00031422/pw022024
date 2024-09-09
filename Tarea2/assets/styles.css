@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.hero {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}   
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.wind-instruments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.instrument {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: calc(50% - 2rem);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.instrument h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ff5722;
+}
+
+.instrument p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.instrument img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+* Music Genres Section */
+.music-genres {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.music-genres h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+.genres-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.genre {
+    margin-bottom: 1.5rem;
+}
+
+.genre h3 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 0.5rem;
+}
+
+.genre p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.feedback-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.feedback-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .wind-instruments {
+        flex-direction: column;
+    }
+
+    .instrument {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .feedback-form {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .genres-box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
